@@ -147,3 +147,5 @@ C:\projects\OrderManagementSystem\Backend.UnitTests\obj\Debug\net10.0\refint\Bac
 C:\projects\OrderManagementSystem\Backend.UnitTests\obj\Debug\net10.0\Backend.UnitTests.pdb
 C:\projects\OrderManagementSystem\Backend.UnitTests\obj\Debug\net10.0\Backend.UnitTests.genruntimeconfig.cache
 C:\projects\OrderManagementSystem\Backend.UnitTests\obj\Debug\net10.0\ref\Backend.UnitTests.dll
+C:\projects\OrderManagementSystem\Backend.UnitTests\bin\Debug\net10.0\OrderManagementSystem.staticwebassets.runtime.json
+C:\projects\OrderManagementSystem\Backend.UnitTests\obj\Debug\net10.0\Backend.UnitTests.sourcelink.json
