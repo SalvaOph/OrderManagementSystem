@@ -1,0 +1,127 @@
+.orders-card {
+  background: #fff;
+  border-radius: 10px;
+  border: 1px solid #e5e7eb;
+}
+
+/* Tabs */
+.tab-btn {
+  background: #f3f4f6;
+  font-size: 12px;
+}
+.tab-btn.active {
+  background: #e5e7eb;
+  font-weight: 600;
+}
+
+.custom-table tbody tr {
+  border-top: 1px solid #f0f0f0;
+}
+
+.custom-table tbody tr td {
+  padding-left: 10px;
+  padding-right: 16px;
+}
+
+/* explicit utility classes used in the template */
+.th-left,
+.td-left,
+.tr-left {
+  text-align: left !important;
+  padding-left: 10px !important;
+}
+
+/* hidden order id cell (keeps id in DOM but not visible) */
+.order-id-cell {
+  display: none !important;
+  visibility: hidden !important;
+  width: 0 !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+/* align headers and all table cells to the left with small left padding */
+.custom-table thead th,
+.custom-table td,
+.custom-table tbody tr {
+  text-align: left;
+}
+
+.custom-table thead th {
+  padding-left: 5px;
+}
+
+.custom-table tbody tr:hover {
+  background: #fafafa;
+}
+
+/* Avatar */
+.avatar {
+  width: 32px;
+  height: 32px;
+  background: #e5e7eb;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  font-size: 12px;
+}
+
+/* Region dot */
+.dot {
+  width: 8px;
+  height: 8px;
+  background: #3b82f6;
+  border-radius: 50%;
+}
+
+/* Status badges */
+.status-badge {
+  font-size: 11px;
+  padding: 4px 8px;
+  border-radius: 6px;
+  font-weight: 600;
+}
+
+.status-badge.delivered {
+  background: #dcfce7;
+  color: #15803d;
+}
+
+.status-badge.in\ transit {
+  background: #e0f2fe;
+  color: #0369a1;
+}
+
+.status-badge.processing {
+  background: #fef3c7;
+  color: #b45309;
+}
+
+.status-badge.on\ hold {
+  background: #fee2e2;
+  color: #b91c1c;
+}
+
+.custom-table tbody tr:nth-child(odd) td {
+  background-color: #edf1f2 !important;
+}
+
+.custom-table tbody tr:nth-child(even) td {
+  background-color: #ffffff !important;
+}
+
+.custom-table tbody tr:hover td {
+  background-color: #eaf2ff !important;
+  transition: 0.2s;
+}
+
+.custom-table td {
+  transition: background-color 0.15s ease;
+}
+
+.active-filter-btn {
+  background: #1976d2 !important;
+  color: white;
+}

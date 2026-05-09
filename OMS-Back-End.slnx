@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="Backend.UnitTests/Backend.UnitTests.csproj" />
+  <Project Path="OrderManagementSystem/OrderManagementSystem.csproj" />
+</Solution>
